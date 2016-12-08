@@ -13,6 +13,10 @@
 		09AB08141DE2BAFB001D1834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AB08131DE2BAFB001D1834 /* Assets.xcassets */; };
 		09AB08171DE2BAFB001D1834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AB08151DE2BAFB001D1834 /* LaunchScreen.storyboard */; };
 		09AB08221DE2BAFB001D1834 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB08211DE2BAFB001D1834 /* FoodTrackerTests.swift */; };
+		09AB082D1DF333BF001D1834 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB082C1DF333BF001D1834 /* RatingControl.swift */; };
+		09AB082F1DF68B05001D1834 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB082E1DF68B05001D1834 /* Meal.swift */; };
+		09AB08301DF68B05001D1834 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB082E1DF68B05001D1834 /* Meal.swift */; };
+		09AB08321DF918E8001D1834 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AB08311DF918E8001D1834 /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 		09AB081D1DE2BAFB001D1834 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AB08211DE2BAFB001D1834 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		09AB08231DE2BAFB001D1834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09AB082C1DF333BF001D1834 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		09AB082E1DF68B05001D1834 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		09AB08311DF918E8001D1834 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +86,10 @@
 			children = (
 				09AB080C1DE2BAFB001D1834 /* AppDelegate.swift */,
 				09AB080E1DE2BAFB001D1834 /* ViewController.swift */,
+				09AB08311DF918E8001D1834 /* MealTableViewCell.swift */,
 				09AB08101DE2BAFB001D1834 /* Main.storyboard */,
+				09AB082C1DF333BF001D1834 /* RatingControl.swift */,
+				09AB082E1DF68B05001D1834 /* Meal.swift */,
 				09AB08131DE2BAFB001D1834 /* Assets.xcassets */,
 				09AB08151DE2BAFB001D1834 /* LaunchScreen.storyboard */,
 				09AB08181DE2BAFB001D1834 /* Info.plist */,
@@ -146,6 +156,7 @@
 				TargetAttributes = {
 					09AB08081DE2BAFB001D1834 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G339DHBB47;
 						ProvisioningStyle = Automatic;
 					};
 					09AB081C1DE2BAFB001D1834 = {
@@ -199,8 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB082F1DF68B05001D1834 /* Meal.swift in Sources */,
 				09AB080F1DE2BAFB001D1834 /* ViewController.swift in Sources */,
+				09AB082D1DF333BF001D1834 /* RatingControl.swift in Sources */,
 				09AB080D1DE2BAFB001D1834 /* AppDelegate.swift in Sources */,
+				09AB08321DF918E8001D1834 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AB08301DF68B05001D1834 /* Meal.swift in Sources */,
 				09AB08221DE2BAFB001D1834 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G339DHBB47;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.planog.FoodTracker;
@@ -351,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G339DHBB47;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.planog.FoodTracker;
